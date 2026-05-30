@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     const { key, api, ...extraParams } = req.query;
 
     // ⚠️ CHANGE THIS TO YOUR ACTUAL PHP HOSTING DOMAIN ⚠️
-    const PHP_BACKEND_URL = "https://your-php-domain.com/verify.php"; 
+    const PHP_BACKEND_URL = "https://lifeatface.in/works/api/verify.php"; 
     const BRIDGE_SECRET = "LOFZ_SECRET_5588"; 
 
     if (!key || !api) {
